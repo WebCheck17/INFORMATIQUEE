@@ -39,7 +39,6 @@ import AuthSection from "./components/AuthSection";
 import { AlertCircle, CheckCircle, Info, X } from "lucide-react";
 
 const USE_BACKEND = true;
-const API_BASE = "http://localhost:3001/api";
 
 // Helper API fetch dengan token
 async function apiFetch(endpoint: string, options: RequestInit = {}) {
